@@ -5,11 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
 ## [0.1.1] - 2026-11-17
 
 ### Added
 
-- JitPack publishing.
+- Maven publishing for the shaded library JAR.
+- JitPack publishing, with Gradle (Kotlin and Groovy DSL) and Maven consumption examples in the
+  README.
+
+### Changed
+
+- Migrated Java packages and Maven coordinates from `io.github.tavstaldev` to
+  `com.github.TavstalDev` to match the JitPack group ID. This is a breaking change for imports and
+  dependency declarations.
+- Simplified the root Gradle build configuration.
 
 ## [0.1.0] - 2026-11-13
 
@@ -34,5 +45,6 @@ Initial release.
 - Gradle multi-module build targeting Java 8 for all published modules, with a JDK 25 toolchain.
 - GitHub Actions release workflow for building the library and publishing a pre-release.
 
+[Unreleased]: https://github.com/TavstalDev/yggraBossBar/compare/v0.1.1...HEAD
 [0.1.1]: https://github.com/TavstalDev/yggraBossBar/releases/tag/v0.1.1
 [0.1.0]: https://github.com/TavstalDev/yggraBossBar/releases/tag/v0.1.0
