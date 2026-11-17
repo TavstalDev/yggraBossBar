@@ -51,9 +51,9 @@ tasks.build {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            from(components["java"])
             groupId = "com.github.TavstalDev"
             artifactId = "yggraBossBar"
+            artifact(tasks.shadowJar)
         }
     }
 }

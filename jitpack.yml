@@ -1,2 +1,4 @@
+jdk:
+  - openjdk25
 install:
-  - gradle :bootstrap:publishToMavenLocal
+  - ./gradlew :bootstrap:publishToMavenLocal
