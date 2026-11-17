@@ -1,7 +1,7 @@
 plugins {}
 
 allprojects {
-    group = "io.github.tavstaldev"
+    group = "com.github.TavstalDev"
     version = "0.1.1"
 }
 

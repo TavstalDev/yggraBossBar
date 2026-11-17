@@ -52,7 +52,7 @@ publishing {
     publications {
         create<MavenPublication>("maven") {
             from(components["java"])
-            groupId = "io.github.tavstaldev"
+            groupId = "com.github.TavstalDev"
             artifactId = "yggraBossBar"
         }
     }

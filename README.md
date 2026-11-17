@@ -117,7 +117,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.tavstaldev:yggraBossBar:<version>")
+    implementation("com.github.TavstalDev:yggraBossBar:<version>")
 }
 ```
 
@@ -130,7 +130,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'io.github.tavstaldev:yggraBossBar:<version>'
+    implementation 'com.github.TavstalDev:yggraBossBar:<version>'
 }
 ```
 
@@ -146,7 +146,7 @@ Maven:
 
 <dependencies>
     <dependency>
-        <groupId>io.github.tavstaldev</groupId>
+        <groupId>com.github.TavstalDev</groupId>
         <artifactId>yggraBossBar</artifactId>
         <version>replace-with-version</version>
     </dependency>
@@ -209,8 +209,8 @@ as a starting point. Its base Adventure loader looks like this; add the platform
 you need 1.13 – 1.16.4 support.
 
 ```java
-import io.github.tavstaldev.yggraBossBar.api.IBossBar;
-import io.github.tavstaldev.yggraBossBar.bootstrap.YggraBossBar;
+import com.github.TavstalDev.yggraBossBar.api.IBossBar;
+import com.github.TavstalDev.yggraBossBar.bootstrap.YggraBossBar;
 import net.byteflux.libby.BukkitLibraryManager;
 import net.byteflux.libby.Library;
 import org.bukkit.plugin.java.JavaPlugin;
