@@ -1,5 +1,6 @@
 plugins {
     id("com.gradleup.shadow") version "9.3.1"
+    id("maven-publish")
 }
 
 val adventureApiVersion = project.property("adventureApiVersion") as String
@@ -45,4 +46,14 @@ tasks.shadowJar {
 // Ensure the Shadow JAR task runs during the build process
 tasks.build {
     dependsOn(tasks.shadowJar)
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["java"])
+            groupId = "io.github.tavstaldev"
+            artifactId = "yggraBossBar"
+        }
+    }
 }
