@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [0.1.2] - 2026-11-23
+
+### Added
+
+- Sources and Javadoc JARs for the API module, published alongside the shaded Maven artifact.
+
+### Changed
+
+- Bumped the Gradle wrapper to 9.8.2.
+- Configured Dependabot to ignore Spigot/Paper API and Gradle/Shadow dependency updates.
+
 ## [0.1.1] - 2026-11-17
 
 ### Added
@@ -45,6 +56,7 @@ Initial release.
 - Gradle multi-module build targeting Java 8 for all published modules, with a JDK 25 toolchain.
 - GitHub Actions release workflow for building the library and publishing a pre-release.
 
-[Unreleased]: https://github.com/TavstalDev/yggraBossBar/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/TavstalDev/yggraBossBar/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/TavstalDev/yggraBossBar/releases/tag/v0.1.2
 [0.1.1]: https://github.com/TavstalDev/yggraBossBar/releases/tag/v0.1.1
 [0.1.0]: https://github.com/TavstalDev/yggraBossBar/releases/tag/v0.1.0
