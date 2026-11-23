@@ -1,5 +1,5 @@
 plugins {
-    id("com.gradleup.shadow") version "9.3.1"
+    id("com.gradleup.shadow") version "9.6.1"
 }
 
 version = "1.0.0"
@@ -8,7 +8,7 @@ val adventureApiVersion = project.property("adventureApiVersion") as String
 val adventurePlatformVersion = project.property("adventurePlatformVersion") as String
 
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:26.3-R0.1-SNAPSHOT")
     compileOnly("net.kyori:adventure-api:${adventureApiVersion}")
     compileOnly("net.kyori:adventure-text-serializer-legacy:${adventureApiVersion}")
     compileOnly("net.kyori:adventure-text-minimessage:${adventureApiVersion}")
