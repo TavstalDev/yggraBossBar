@@ -2,6 +2,7 @@ name: Sync labels
 on:
   workflow_dispatch:
 
+
 permissions:
   issues: write
 
